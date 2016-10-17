@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.Master.cs" Inherits="MasterContent.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <h1>Master Content page lab</h1>
+        </div>
+
+        <div id="sidebar">
+            <asp:HyperLink runat="server" ID="hyperlink1" NavigateUrl="lab01.aspx">Лаборатори-1</asp:HyperLink> 
+            <br>
+            <asp:HyperLink runat="server" ID="hyperlink2" NavigateUrl="lab02.aspx">Лаборатори-2</asp:HyperLink> 
+        </div>
+
+        <div id="content">
+            <asp:ContentPlaceHolder
+                id="myContent"
+                runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
