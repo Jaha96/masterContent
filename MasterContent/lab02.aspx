@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="lab02.aspx.cs" Inherits="MasterContent.lab02" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="myContent" runat="server">
-    <h1> Лаб-2 Form validation</h1>
+    <h1>  Лаб-1 Converter</h1>
     <div>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         <asp:Button ID="Button1" runat="server" Text="+10" OnClick="Button1_Click" />

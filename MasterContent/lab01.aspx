@@ -5,7 +5,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="myContent" runat="server">
     
-    <h1> Лаб-1 Converter</h1>
+    <h1>Лаб-2 Form validation</h1>
 
     <div>
         Account information:
